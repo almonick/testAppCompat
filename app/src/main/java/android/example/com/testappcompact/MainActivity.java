@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         switch (item.getItemId()){
             case R.id.action_search:
-
+                onReSerach();
                 break;
             case R.id.action_refresh:
                 onReferesh();
@@ -62,6 +62,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void onReSerach() {
+        Toast.makeText(this, "search pressed", Toast.LENGTH_SHORT).show();
     }
 
     private void onReferesh() {
