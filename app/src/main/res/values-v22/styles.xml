@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Material">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ShayTheme" parent="AppTheme">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+</resources>
